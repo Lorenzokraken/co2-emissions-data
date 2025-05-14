@@ -1,5 +1,5 @@
 # 🌍 CO₂ Emissions – Creazione database per analisi globali
-Un progetto completo per analizzare l'evoluzione delle emissioni globali di CO₂ a partire dal 1950. 
+Un progetto completo per analizzare l'evoluzione delle emissioni globali di CO₂ a partire dal 1800. 
 Questa repository si concentra sulla parte **ETL e database**, trasformando dati raw in un database relazionale normalizzato in SQLite, 
 pronto per essere interrogato o usato in applicazioni web.
 
