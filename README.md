@@ -48,7 +48,7 @@ Prende in input dei file CSV, permette di intervenire sulle colonne selezionando
 - api_ag_data_extraction.py : estrae la superficie terrestre dai dataset della World Bank
 
 ## 2. Matching & Merge
--match.py : confronta i paesi nei due dataset e produce match con codici ISO
+- match.py : confronta i paesi nei due dataset e produce match con codici ISO
 - merge_data.py : unisce le fonti e calcola co2_per_km2
 
 ## 3. Creazione Database
