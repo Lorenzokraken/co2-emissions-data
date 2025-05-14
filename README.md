@@ -11,7 +11,9 @@ Dati da Our World in Data e World Bank
 👤 Autore
 Lorenzo Iuliano
 Progetto a scopo educativo/professionale
-LinkedIn: linkedin.com/in/lorenzo-iuliano-852798220
+
+[LinkedIn](https://www.linkedin.com/in/lorenzo-iuliano-852798220/)
+
 
 ---
 
