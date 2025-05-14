@@ -43,11 +43,11 @@ Prende in input dei file CSV, permette di intervenire sulle colonne selezionando
 
 ## ⚙️ Come funziona
 
-1. Estrazione dati
+## 1. Estrazione dati
 - owid_data_extraction.py : pulisce e filtra i dati sulle emissioni CO₂ da Our World in Data
 - api_ag_data_extraction.py : estrae la superficie terrestre dai dataset della World Bank
 
-2. Matching & Merge
+## 2. Matching & Merge
 -match.py : confronta i paesi nei due dataset e produce match con codici ISO
 - merge_data.py : unisce le fonti e calcola co2_per_km2
 
