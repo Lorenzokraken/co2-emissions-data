@@ -3,7 +3,7 @@ import pandas as pd
 import os
 
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
-DATA_PATH = os.path.join(BASE_DIR, '..', 'data', 'owid-co2-data.csv')
+DATA_PATH = os.path.join(BASE_DIR, '..', 'data', 'csv', 'owid-co2-data.csv')
 SAVE_PATH = os.path.join(BASE_DIR, '..', 'data', 'owid_clean.csv')
 
 # Carica e filtra OWID

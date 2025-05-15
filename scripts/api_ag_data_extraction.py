@@ -2,7 +2,7 @@ import pandas as pd
 import os
 
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
-WB_PATH = os.path.join(BASE_DIR, '..', 'data', 'API_AG.SRF.TOTL.K2_DS2_en_csv_v2_94516.csv')
+WB_PATH = os.path.join(BASE_DIR, '..', 'data', 'csv', 'API_AG.SRF.TOTL.K2_DS2_en_csv_v2_94516.csv')
 SAVE_PATH = os.path.join(BASE_DIR, '..', 'data', 'surface_fixed.csv')
 
 # Carica World Bank
