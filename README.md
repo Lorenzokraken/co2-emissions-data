@@ -21,18 +21,20 @@ Progetto a scopo educativo/professionale
 ```
 co2-emissions-data/
 ├── data/
-│ ├── owid-co2-data.csv
-│ ├── API_AG...csv
+├───── csv/
+│     ├── owid-co2-data.csv
+│     ├── API_AG...csv
 │ ├── surface_fixed.csv
 │ ├── owid_clean.csv
 │ ├── all_countries.csv
+│ ├── info
 │ └── co2_emissions.db
 ├── scripts/
 │ ├── owid_data_extraction.py
 │ ├── api_ag_data_extraction.py
 │ ├── match.py
 │ ├── merge_data.py
-│ └── create_db.py
+├── create_db.py
 ├── requirements.txt
 ├── LICENSE
 └── README.md
@@ -79,4 +81,5 @@ per essere integrato in una dashboard o applicazione web.
 Ho lavorato con fonti complesse, affrontato problemi di normalizzazione e pulizia dei dati reali,
 e automatizzato ogni passaggio in Python. Questo progetto rappresenta un esempio concreto del mio 
 approccio pratico al ciclo completo dei dati.
+ 
 
