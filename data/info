@@ -1,0 +1,32 @@
+--  surface_fixed.csv
+File csv che comprende tutte le superfici di tutti gli stati a livello mondiale.
+è stato fondamentale ripulirlo di tutte le entità non statali,
+e controllare l'intero dataset in cerca di incongruenze.
+
+--  owid_clean.csv
+File csv che comprende tutte le emissioni di co2 di tutti gli stati a livello mondiale.
+
+
+--  all_countries.csv
+File CSV risultante dal merge tra owid_clean.csv e surface_fixed.csv.
+Contiene, per ogni stato e anno, i seguenti dati:
+
+country: nome del paese
+iso_code: codice ISO a 3 lettere
+year: anno di riferimento
+co2: emissioni di CO₂ (in milioni di tonnellate)
+population: popolazione del paese in quell’anno
+surface_km2: superficie del paese (fissa, in km²)
+co2_per_km2: densità di emissioni di CO₂ per km² (valore calcolato)
+
+
+
+
+🔍 Questo file è il dataset finale normalizzato che alimenta il database SQLite.
+È stato ottenuto:
+
+assicurando il match tra i nomi dei paesi
+
+escludendo paesi o righe con dati mancanti
+
+calcolando co2_per_km2 come co2 / surface_km2, arrotondato a 6 decimali

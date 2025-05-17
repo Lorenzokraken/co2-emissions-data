@@ -2,8 +2,8 @@ import pandas as pd
 import os
 
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
-OWID_PATH = os.path.join(BASE_DIR, '..', 'data', 'owid_clean.csv')
-SURFACE_PATH = os.path.join(BASE_DIR, '..', 'data', 'surface_fixed.csv')
+OWID_PATH = os.path.join(BASE_DIR, '..', '..', 'data', 'owid_clean.csv')
+SURFACE_PATH = os.path.join(BASE_DIR,'..', '..', 'data', 'surface_fixed.csv')
 
 # Carica i dati
 owid = pd.read_csv(OWID_PATH)
